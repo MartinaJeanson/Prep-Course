@@ -154,15 +154,15 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
- if (numero>0) {
+ if(numero>0) {
    return 'es positivo'
  }
- if (numero<0) {
+ if(numero<0) {
    return 'es negativo'
- } else {
+ } 
    return false
  }
-  } 
+  
 
 
 function agregarSimboloExclamacion(str) {
@@ -222,15 +222,15 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u' ) {
+  if(letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u' ) {
     return 'es vocal'
   } 
-  if (letra.length !== 1) {
+  if(letra.length !== 1) {
     return 'dato incorrecto'
-  } else {
+  } 
     return 'dato incorrecto'
   }
-}
+
 
 
 
